@@ -17,6 +17,7 @@ nav {
   background-color: #333;
   padding: 10px;
   border-radius: 10px;
+
 }
 
 nav ul {
@@ -30,6 +31,7 @@ nav ul {
 
 nav ul li {
   position: relative;
+
 }
 
 nav ul li a {
@@ -37,6 +39,7 @@ nav ul li a {
   color: #fff;
   padding: 10px;
   text-decoration: none;
+
 }
 
 nav ul li:hover > ul {
@@ -64,7 +67,7 @@ nav ul ul li a {
 }
 
 nav ul ul li:hover {
-  background-color: #444;
+  background-color: #e10b0b;
 }
 .container{
   display: contents;
@@ -81,7 +84,7 @@ nav ul ul li:hover {
   font-weight: 500;
   position: relative;
   text-align: center;
-  background: linear-gradient(135deg, #0587dd, #a712e1);
+  /* background: linear-gradient(135deg, #0587dd, #a712e1); */
 }
 .container .title::before{
   content: "";
